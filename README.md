@@ -1,5 +1,14 @@
 # Comprehensive Python Engineering & Quant Analytics Portfolio
 
+<div align="center">
+
+[![Daily Streak](https://img.shields.io/badge/Daily%20Streak-Active%20%F0%9F%94%A5-brightgreen?style=flat-square&logo=github)](https://github.com/abdussatarkhan)
+[![Master Portfolio](https://img.shields.io/badge/Portfolio-50%2B%20Enterprise%20Projects-0e75b6?style=flat-square&logo=github)](https://github.com/abdussatarkhan/abdussatarkhan)
+[![Author: Abdussatar](https://img.shields.io/badge/Author-Abdussatar-24292e?style=flat-square&logo=github)](https://github.com/abdussatarkhan)
+
+</div>
+
+
 [![CI](https://github.com/abdussatarkhan/python_projects_repo/actions/workflows/ci.yml/badge.svg)](https://github.com/abdussatarkhan/python_projects_repo/actions)
 [![Python](https://img.shields.io/badge/Python-Collection-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![Data Science](https://img.shields.io/badge/Data_Science-Pandas_NumPy-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Author](https://img.shields.io/badge/Author-Abdussatar-E50914?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdussatarkhan)
@@ -60,3 +69,15 @@ For technical discussions, collaboration, or queries, feel free to reach out via
 ## 📜 License
 
 This project is licensed under the **MIT License** — see the LICENSE file for details.
+
+
+---
+
+<div align="center">
+
+### 👨‍💻 Maintained by [Abdussatar (@abdussatarkhan)](https://github.com/abdussatarkhan)
+Part of the **[Master Enterprise Data Analytics & AI Portfolio](https://github.com/abdussatarkhan/abdussatarkhan)**.
+
+⭐ If you find this repository valuable, consider dropping a star! ⭐
+
+</div>
