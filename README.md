@@ -1,5 +1,6 @@
 # Comprehensive Python Engineering & Quant Analytics Portfolio
 
+[![CI](https://github.com/abdussatarkhan/python_projects_repo/actions/workflows/ci.yml/badge.svg)](https://github.com/abdussatarkhan/python_projects_repo/actions)
 [![Python](https://img.shields.io/badge/Python-Collection-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![Data Science](https://img.shields.io/badge/Data_Science-Pandas_NumPy-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Author](https://img.shields.io/badge/Author-Abdussatar-E50914?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdussatarkhan)
 
