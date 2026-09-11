@@ -1,19 +1,20 @@
-# Comprehensive Python Engineering & Quant Analytics Portfolio
+# JARVIS — Voice-Activated AI Desktop Assistant & Automation Hub
 
 <div align="center">
 
 [![Daily Streak](https://img.shields.io/badge/Daily%20Streak-Active%20%F0%9F%94%A5-brightgreen?style=flat-square&logo=github)](https://github.com/abdussatarkhan)
-[![Master Portfolio](https://img.shields.io/badge/Portfolio-50%2B%20Enterprise%20Projects-0e75b6?style=flat-square&logo=github)](https://github.com/abdussatarkhan/abdussatarkhan)
+[![Software Portfolio](https://img.shields.io/badge/Portfolio-Software%20Engineering%20%26%20Systems-0e75b6?style=flat-square&logo=github)](https://github.com/abdussatarkhan)
 [![Author: Abdussatar](https://img.shields.io/badge/Author-Abdussatar-24292e?style=flat-square&logo=github)](https://github.com/abdussatarkhan)
 
 </div>
 
-
 [![CI](https://github.com/abdussatarkhan/python_projects_repo/actions/workflows/ci.yml/badge.svg)](https://github.com/abdussatarkhan/python_projects_repo/actions)
-[![Python](https://img.shields.io/badge/Python-Collection-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![Data Science](https://img.shields.io/badge/Data_Science-Pandas_NumPy-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![Author](https://img.shields.io/badge/Author-Abdussatar-E50914?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdussatarkhan)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Web Speech API](https://img.shields.io/badge/Web_Speech_API-Voice_Recognition-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
+[![HUD Interface](https://img.shields.io/badge/Interface-Cybernetic_HUD-00FFFF?style=for-the-badge&logo=html5&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-> **A curated master repository of specialized Python tools, automation scripts, algorithms, data engineering pipelines, and econometric models.**
+> **An interactive, voice-controlled personal desktop assistant built with Python and HTML5/JavaScript. Features continuous voice recognition, real-time text-to-speech feedback, desktop automation triggers, system telemetry monitoring, and an Iron Man-inspired interactive cybernetic HUD.**
 
 ---
 
@@ -21,21 +22,23 @@
 
 ```mermaid
 graph TD
-    Root[Python Projects Hub] --> Web[Web Scrapers & APIs]
-    Root --> ML[Machine Learning & Predictive Models]
-    Root --> Quant[Quantitative Analytics & Simulations]
-    Root --> Automation[System Automation & CLI Utilities]
+    Mic[🎙️ User Voice Input / Microphone] --> SpeechAPI[Web Speech Recognition API]
+    SpeechAPI --> Parser[Natural Language Command Parser & Dispatcher]
+    Parser --> PythonServer[Python Local HTTP / CORS Backend Server]
+    PythonServer --> SysActions[Desktop Automation: App Launch, Media & Web Queries]
+    PythonServer --> Telemetry[System Diagnostics: CPU, Memory & Network Latency]
+    SysActions --> TTS[🔊 Voice Synthesis & Spoken Responses]
+    Telemetry --> HUD[🖥️ Futuristic Cybernetic Canvas HUD & Audio Visualizer]
 ```
 
 ---
 
 ## 🌟 Key Features & Capabilities
 
-- **Production-Grade Implementation**: Built with high attention to performance, modular design, and industry standard best practices.
-- **Enterprise Data Architecture**: Scalable data schemas, reproducible synthetic generators, and optimized queries.
-- **Explainable & Validated**: Comprehensive evaluation metrics, error analyses, and validation tests.
-- **Comprehensive Tech Stack**: `Python` `Pandas` `NumPy` `Automation` `Machine Learning`.
-
+- **🎙️ Hands-Free Voice Control**: Continuous microphone listening powered by the Web Speech API with natural conversational feedback and voice activation.
+- **⚡ Desktop Automation & Quick Launch**: Instantly execute web queries, open popular applications, play audio, and fetch live weather and system time via voice or UI commands.
+- **🖥️ Cybernetic Iron Man HUD**: Dynamic audio frequency spectrum visualizer, rotating holographic target rings, and dark-mode terminal layout.
+- **🔒 Local-First & Zero-Cloud Backend**: Runs entirely on your local machine using Python's `http.server` with custom CORS headers and zero mandatory external API keys.
 
 ---
 
@@ -47,34 +50,47 @@ git clone https://github.com/abdussatarkhan/....._python-projects_......git
 cd ....._python-projects_.....
 ```
 
-### 2. Environment Setup
-```bash
-# Create and activate virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+### 2. Launch JARVIS
 
-# Install dependencies (if requirements.txt exists)
-pip install -r requirements.txt
+**Option A: Windows One-Click (Recommended)**
+Double-click `START_JARVIS.bat` in the project root folder.
+
+**Option B: Terminal Command**
+```bash
+python start_jarvis.py
 ```
+
+The launcher will start the local HTTP server and automatically open your default browser to:
+`http://localhost:8080/jarvis.html`
+
+> [!IMPORTANT]
+> When prompted by your browser, grant microphone permissions so JARVIS can hear your voice commands.
 
 ---
 
-
-
-## 🖥️ Application & Dashboard Interface
-
-This repository includes an interactive operational dashboard and management console ([`dashboard.html`](dashboard.html)) with live simulated telemetry.
+## 🖥️ Application & Operational Interface
 
 <p align="center">
-  <img src="screenshots/01_dashboard_preview.png" alt="Python Core Systems & Algorithmic Tools Engine Preview" width="95%" />
+  <img src="screenshots/01_dashboard_preview.png" alt="JARVIS Voice Assistant & Cybernetic HUD Interface Preview" width="95%" />
 </p>
 
 > [!TIP]
-> Double-click [`dashboard.html`](dashboard.html) to open the interactive interface locally in any modern browser with zero server dependencies.
+> You can also explore [`dashboard.html`](dashboard.html) locally by double-clicking it in any modern browser for standalone interface inspection.
 
 ---
 
-## 👨‍💻 Author & Profile
+## 🗺️ Roadmap & Upcoming Enhancements
+
+- [x] Local Python CORS web server with automatic browser launch
+- [x] Speech recognition and voice synthesis loop
+- [x] Cybernetic canvas HUD with audio frequency reactivity
+- [ ] Local LLM integration (Ollama / Llama.cpp) for offline intelligence
+- [ ] Hotword wake detection ("Hey Jarvis") using Porcupine / WebAssembly
+- [ ] Home Assistant / IoT smart bulb control integration
+
+---
+
+## 👨‍💻 Author & Contact
 
 Built and maintained by **Abdussatar** ([@abdussatarkhan](https://github.com/abdussatarkhan)).  
 For technical discussions, collaboration, or queries, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/abdus-satar-5150813b5/) or [GitHub](https://github.com/abdussatarkhan).
@@ -83,16 +99,15 @@ For technical discussions, collaboration, or queries, feel free to reach out via
 
 ## 📜 License
 
-This project is licensed under the **MIT License** — see the LICENSE file for details.
-
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
 ### 👨‍💻 Maintained by [Abdussatar (@abdussatarkhan)](https://github.com/abdussatarkhan)
-Part of the **[Master Enterprise Data Analytics & AI Portfolio](https://github.com/abdussatarkhan/abdussatarkhan)**.
+Part of the **[Abdussatar Software Engineering & Systems Portfolio](https://github.com/abdussatarkhan)**.
 
-⭐ If you find this repository valuable, consider dropping a star! ⭐
+⭐ If you find this project interesting, consider dropping a star! ⭐
 
 </div>
